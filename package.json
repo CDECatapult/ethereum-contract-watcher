@@ -1,0 +1,59 @@
+{
+  "name": "@digicat/ethereum-contract-watcher",
+  "version": "0.0.0",
+  "description": "Observes contracts on a web3.js-compatible Ethereum network, providing callbacks for when events are emitted",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "engines": {
+    "node": ">=8.6"
+  },
+  "scripts": {
+    "coverage": "nyc npm test",
+    "lint": "as-i-preach",
+    "posttest": "as-i-preach",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CDECatapult/ethereum-contract-watcher.git"
+  },
+  "author": "Digital Catapult (https://www.digitalcatapultcentre.org.uk/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/CDECatapult/ethereum-contract-watcher/issues"
+  },
+  "homepage": "https://github.com/CDECatapult/ethereum-contract-watcher#readme",
+  "keywords": [
+    "blockchain",
+    "contract",
+    "ethereum",
+    "web3"
+  ],
+  "dependencies": {
+    "funstream": "^2.2.0",
+    "web3": "^0.19.1"
+  },
+  "devDependencies": {
+    "@novemberborn/as-i-preach": "^10.1.0",
+    "ava": "^0.22.0",
+    "codecov": "^2.3.1",
+    "delay": "^2.0.0",
+    "ganache-core": "github:CDECatapult/ganache-core#64ee0a3d8d4f46020480f20eae335754b4fb9290",
+    "memdown": "^1.4.0",
+    "nyc": "^11.2.1",
+    "solc": "^0.4.17",
+    "testdouble": "^3.2.6",
+    "truffle-contract": "^3.0.0"
+  },
+  "nyc": {
+    "reporter": [
+      "html",
+      "lcov",
+      "text"
+    ]
+  },
+  "standard-engine": "@novemberborn/as-i-preach"
+}
