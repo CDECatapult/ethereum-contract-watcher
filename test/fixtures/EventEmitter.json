@@ -1,0 +1,32 @@
+{
+  "contract_name": "EventEmitter",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "emit",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "Emitted",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "60606040523415600e57600080fd5b60c28061001c6000396000f30060606040526000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063195977a614603c57600080fd5b3415604657600080fd5b605a6004808035906020019091905050605c565b005b7fa29a2caaccc1085ba955c262f6c80a1d1480f34fc1712c44c357c98030b9ee57816040518082815260200191505060405180910390a1505600a165627a7a72305820798dda784fbc1f77e0edb6f91899cc7a0000a880e869fee87985a21aadfe150e0029"
+}
