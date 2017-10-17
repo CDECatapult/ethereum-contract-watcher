@@ -1,6 +1,6 @@
 {
   "name": "@digicat/ethereum-contract-watcher",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Observes contracts on a web3.js-compatible Ethereum network, providing callbacks for when events are emitted",
   "main": "index.js",
   "files": [
